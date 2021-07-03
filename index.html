@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
+    <button  id="inboxmessage"> <a href="export.html" target="_blank"> <i class="fas fa-envelope"></i></a></button>
 <header>
     <div class="user">
         <img src="files/amine.jpeg" alt="">
-        <h3 class="name">Amine FAidi</h3>
+        <h3 class="name">Amine Faidi</h3>
         <p class="post">Full Stack developer</p>
         <nav class="navbar">
             <ul>
@@ -70,12 +71,12 @@
             <h3><i class="fas fa-map-marker-alt"></i>:  1126 oued ellil, manouba tunisia</h3>
         </div>
     </div>
-    <form action="">
-    <input type="text" placeholder="Full Name" class="box">
-    <input type="text" placeholder="Email" class="box">
-    <input type="text" placeholder="Phone number" class="box">
-    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Your Message"></textarea>
-    <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+    <form action="" id="contents">
+    <input type="text" placeholder="Full Name"   class="box" id="fullName" required>
+    <input type="email" placeholder="Email" class="box" id="email">
+    <input type="text" placeholder="Phone number" class="box" id="phone">
+    <textarea name=""  cols="30" rows="10" class="box message" placeholder="Your Message" id="message"></textarea>
+    <button type="submit" class="btn" id="btn"> send <i class="fas fa-paper-plane"></i></button>
 </form>
 </div>
 <div class="copy">
@@ -89,7 +90,6 @@
     </div>
 </div>
 </section>
-
 
  <script src="script.js">send</script>   
 </body>

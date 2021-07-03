@@ -1,243 +1,254 @@
 /* styling the body */
-*{
-    font-family: awes;
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    outline: none; border: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
-
+* {
+  font-family: awes;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  text-decoration: none;
 }
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
+body {
+  background: #111;
+  overflow-x: hidden;
+  padding-left: 35rem;
 
-body{
-    background: #111;
-    overflow-x: hidden;
-    padding-left: 35rem;
 }
 /* styling the header and the nav bar */
-header{
-    position: fixed;
-    top: 0; left: 0;
-    z-index: 1000;
-    height: 100%;
-    width: 35rem;
-    background: #1a1a1a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    text-align: center;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+header .user img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 0.7rem solid gold;
+}
+header .user .name {
+  font-size: 3.5rem;
+  color: #fff;
+}
+header .user .post {
+  font-size: 2rem;
+  color: #fff;
+}
 
+header .navbar {
+  width: 100%;
 }
-header .user img{
-    height: 17rem;
-    width: 17rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border: .7rem solid red;
-
+header .navbar ul {
+  list-style: none;
+  padding: 1rem;
 }
-header .user .name{
-    font-size: 3.5rem;
-    color: #fff;
+header .navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
 }
-header .user .post{
-    font-size: 2rem;
-    color: #fff;
+header .navbar ul li a {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #333;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5rem;
 }
-
-header .navbar{
-    width: 100%;
-
+header .navbar ul li a:hover {
+  background: gold;
 }
-header .navbar ul{
-    list-style: none;
-    padding: 1rem;
-}
-header .navbar ul{
-    list-style: none;
-    padding: 1rem 3rem;
-}
-header .navbar ul li a{
-    display: block;
-    padding: 1rem;
-    margin: 1.5rem 0;
-    background: #333;
-    color: #fff;
-    font-size: 2rem;
-    border-radius: 5rem;
-}
-header .navbar ul li a:hover{
-    background:red ;
-}
-section{
-    min-height: 100vh;
-    padding: 1rem;
+section {
+  min-height: 100vh;
+  padding: 1rem;
 }
 /* styling the home` */
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    padding:0 15rem;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 15rem;
 }
-.home h3{
-    font-size: 2.5rem;
-    color: #fff;
+.home h3 {
+  font-size: 2.5rem;
+  color: #fff;
 }
-.home h1{
-    font-size: 5rem;
-    color: #fff;
+.home h1 {
+  font-size: 5rem;
+  color: #fff;
 }
-.home h1 span{
-    color: red;
+.home h1 span {
+  color: gold;
 }
-.home p{
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 0;
+.home p {
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
 }
-.btn{
-    padding: .7rem 3rem;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 2rem;
-    border-radius: 5rem;
+.btn {
+  padding: 0.7rem 3rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-radius: 5rem;
 }
-.btn:hover{
-    background: red;
+.btn:hover {
+  background: gold;
 }
 
 /* styling about section */
-.heading{
-    text-align: center;
-    margin:0 6rem;
-    font-size: 4rem;
-    padding: 1rem;
-    border-bottom: .1rem solid red;
-    color: #fff;
-
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid gold;
+  color: #fff;
 }
 
-.heading span{
-    color: red;
+.heading span {
+  color: gold;
 }
-.about .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-
-
+.about .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
 }
-.about .content .info{
-    flex:1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
+.about .content .info {
+  flex: 1 1 48rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
 }
 
-.about .content .info h3{
-    font-size: 2rem;
-    color: red;
-    padding: 1rem 0 ;
-   font-weight: normal;
-}  
-.about .content .info h3 span{
-    color: #eee;
-    padding: 0 .5rem;
+.about .content .info h3 {
+  font-size: 2rem;
+  color: gold;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+.about .content .info h3 span {
+  color: #eee;
+  padding: 0 0.5rem;
 }
 
 /* styling the contact section */
-.contact .contacts{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.contact .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.contact .contacts .content{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
+.contact .contacts .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
 }
-.contact .contacts .content{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
+.contact .contacts .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
 }
-.contact .contacts form{
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    margin-bottom: 4rem;
+.contact .contacts form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
 }
-.contact .contacts form .box{
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: #3333;
-    color: #fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width: 100%;
+.contact .contacts form .box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #3333;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
 }
-.contact .contacts form .message{
-    height: 15rem;
-    resize: none;
-
+.contact .contacts form .message {
+  height: 15rem;
+  resize: none;
 }
-.contact .contacts .content .title{
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 3rem;
-    padding-bottom: 2rem;
+.contact .contacts .content .title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 2rem;
 }
-.contact .contacts .content .info h3{
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 0;
-    font-weight: normal;
+.contact .contacts .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
 }
 
 /* styling the footer division  */
-.contact .copy{
-    background-color:#f5f5f5 ;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.contact .copy {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact .copy .social-icons i{
-    margin-top: 35px;
-    color:black;
-    font-size: 32px;
-    margin-left: 32px;
-    transition: 0.3s;
+.contact .copy .social-icons i {
+  margin-top: 35px;
+  color: black;
+  font-size: 32px;
+  margin-left: 32px;
+  transition: 0.3s;
 }
 .contact .copy .social-icons i:hover {
-    color: red;
-    transition: 0.3s;
+  color: gold;
+  transition: 0.3s;
 }
 
-.contact .copy #creator{
-    font-size: 25px;
+.contact .copy #creator {
+  font-size: 25px;
 }
-.contact .copy #creator:hover{
+.contact .copy #creator:hover {
+  color: gold;
+  transition: 0.7s;
+}
+#inboxmessage {
+  position: fixed;
+  background: black;
+  font-size: 32px;
+  right: 35px;
+  top: 20px;
+
+}
+#inboxmessage i{
+    color: white;
+}
+
+#inboxmessage i:hover{
     color: gold;
-    transition: 0.7s;
 }
+
