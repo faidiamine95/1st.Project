@@ -20,7 +20,6 @@ body {
   background: #111;
   overflow-x: hidden;
   padding-left: 35rem;
-
 }
 /* styling the header and the nav bar */
 header {
@@ -242,39 +241,49 @@ section {
   font-size: 32px;
   right: 35px;
   top: 20px;
-
 }
-#inboxmessage i{
-    color: white;
-}
-
-#inboxmessage i:hover{
-    color: gold;
+#inboxmessage i {
+  color: white;
 }
 
-#putin{
+#inboxmessage i:hover {
+  color: gold;
+}
+
+#putin {
   text-align: center;
   font-size: 4rem;
   padding: 1rem;
   border-bottom: 0.1rem solid gold;
   color: #fff;
-align-items: center;
-justify-content: center;
-margin-right: 50rem;
-
+  align-items: center;
+  justify-content: center;
+  margin-right: 50rem;
 }
 #putin #download {
-visibility: hidden;
-  
+  visibility: hidden;
 }
-#info{
+#info {
   text-align: left;
   font-size: 4rem;
   padding: 1rem;
   border-bottom: 0.1rem solid gold;
   color: #fff;
-align-items: left;
-justify-content: left;
-list-style: square;
+  align-items: left;
+  justify-content: left;
+  list-style: square;
+}
+.contact .contacts .content .info #mailto i{
+  color: #eee;
+}
 
+.contact .contacts .content .info #mailto i:hover{
+  color: gold;
+}
+.contact .contacts .content .info #loca i{
+  color: #eee;
+}
+
+.contact .contacts .content .info #loca i:hover{
+  color: gold;
 }
