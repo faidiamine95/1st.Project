@@ -267,3 +267,14 @@ margin-right: 50rem;
 visibility: hidden;
   
 }
+#info{
+  text-align: left;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid gold;
+  color: #fff;
+align-items: left;
+justify-content: left;
+list-style: square;
+
+}
