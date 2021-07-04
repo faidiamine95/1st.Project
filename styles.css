@@ -252,3 +252,18 @@ section {
     color: gold;
 }
 
+#putin{
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid gold;
+  color: #fff;
+align-items: center;
+justify-content: center;
+margin-right: 50rem;
+
+}
+#putin #download {
+visibility: hidden;
+  
+}
